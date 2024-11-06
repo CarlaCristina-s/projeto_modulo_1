@@ -52,18 +52,18 @@ const HistoricoMovimentacoes = () => {
     return relatorio;
   };
 
-  const getCardColor = (status: string) => {
-    switch (status) {
-      case "created":
-        return "#FFDD57"; // Cor para Aguardando Coleta (ex: Amarelo)
-      case "em transito":
-        return "#FF7043"; // Cor para Movimentações em Trânsito (ex: Laranja)
-      case "Coleta finalizada":
-        return "#66BB6A"; // Cor para Coletas Finalizadas (ex: Verde)
-      default:
-        return "#FFFFFF"; // Cor padrão (ex: Branco)
-    }
-  };
+  // const getCardColor = (status: string) => {
+  //   switch (status) {
+  //     case "created":
+  //       return "#FFDD57"; 
+  //     case "em transito":
+  //       return "#FF7043";
+  //     case "Coleta finalizada":
+  //       return "#66BB6A";
+  //     default:
+  //       return "#FFFFFF";
+  //   }
+  // };
 
   const getQuantityColor = (status: string) => {
     switch (status) {
